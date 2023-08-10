@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    font-size: 20px !important;
+}
+.btn-info:hover{
+    background-color: crimson;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 50px turquoise;}
+    to{box-shadow: 5px 5px 50px rgb(150, 56, 27);}
+}
